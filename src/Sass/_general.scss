@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-image: url('../images/gitHubBackground.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6e6d6d;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #e5e3e35e;
+}
+
+p,
+h1,
+h2 {
+  user-select: none;
+}

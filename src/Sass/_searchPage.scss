@@ -1,0 +1,60 @@
+.searchPageCon {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #0000ff30;
+  padding: 2.5rem 0;
+  border-bottom: 2px solid $white_color;
+  section {
+    align-self: center;
+
+    .btnSearch {
+      margin-left: -2px;
+      height: 2rem;
+      width: 2rem;
+      cursor: pointer;
+      border-top-right-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+      border: 1px solid $black_color;
+    }
+
+    input {
+      padding: 0.3rem;
+      height: 2rem;
+      width: 17rem;
+      outline: none;
+      border-top-left-radius: 0.5rem;
+      border-bottom-left-radius: 0.5rem;
+      border: 1px solid $black_color;
+      text-indent: 0.3rem;
+      font-style: italic;
+      font-weight: 600;
+      &::placeholder {
+        font-style: italic;
+        text-indent: 0.3rem;
+        color: $dark_red_color;
+      }
+      &:focus {
+        border: 2px solid $dark_red_color;
+        border-right: none;
+        box-shadow: inset 2px 1px 8px 3px #0000004d;
+      }
+      &:focus + .btnSearch {
+        border: 2px solid $dark_red_color;
+        border-left: 1px solid #00000061;
+        box-shadow: inset 2px 1px 8px 3px #0000004d;
+      }
+    }
+  }
+
+  .appTitle {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: $white_color;
+    text-shadow: 0 0 10px $dark_red_color;
+    span {
+      color: $dark_red_color;
+      text-shadow: 0 0 10px $white_color;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+/*general*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6e6d6d;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(229, 227, 227, 0.368627451);
+}
+
+.searchPageCon {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color: rgba(0, 0, 255, 0.6431372549);
+  padding: 2.5rem 0;
+}
+.searchPageCon .appTitle {
+  color: grey;
+}/*# sourceMappingURL=index.css.map */
